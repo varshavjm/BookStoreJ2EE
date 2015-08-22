@@ -1,0 +1,254 @@
+
+<html >
+<head>
+
+  
+  <style>
+.mytable.table td
+{
+valign:bottom;
+padding:50px;
+}
+  
+  body
+{
+
+margin:auto;  
+background-color:#FFFF4D;
+
+}
+.btn.btn-default.my
+{
+
+width:163px;
+
+}
+
+
+
+.btn.btn-default
+{
+background-color:#ffb445;
+width:100px;
+height:30px;
+}
+
+
+#search
+{
+display:inline-block;
+padding:5px;
+padding-right:0;
+position:relative;
+left:200px;
+top:80px;
+width:300px;
+	
+}
+
+
+
+</style>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>INFIBEAM</title>
+
+<script src="jquery.js"></script>
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script src="js/bootstrap.js" ></script> 
+<script src="js/bootstrap.min.js"></script>
+<link href="css/bootstrap.css" rel="stylesheet">
+ 
+  </head>
+  <body  style="background:#FFFFB2;">
+  
+  <div class="header">
+  <input type="text" id="search" name="search" placeholder="Search..">
+<input type="submit" border="10" id="search" style="  width:80px;cursor:pointer;background-color:orange;" value="SUBMIT">
+<img border="0" style="margin-left:10; margin-top:20; float:left;"  src="logo.png" alt="logoimage" width="200" height="108">
+
+<div class="btn-group pull-right" style="margin-right:100px;margin-top:10px;">
+  <button type="button" class="btn btn-default" ><a href="project.jsp">HOME</a></button>
+ <a href="Registration.html">
+  <button type="button" class="btn btn-default">REGISTER</button>
+  </a>
+  <button type="button" class="btn btn-default">HELP</button>
+<a href="login.jsp">
+ <button type="button" class="btn btn-default">LOGIN</button>
+  </a>
+<a href="logout.jsp">
+  
+  <button type="button" class="btn btn-default">LOGOUT</button>
+</a>
+  
+  
+  </div>
+</div>
+<div class="body" style="display:inline-block; clear:both;margin-top:200px;">
+<table>
+<tr>
+<!----STORE THE BOOK IMAGE IN A FOLDER AND PLACE IT IN SRC---->
+
+<td>
+<!---book image------------------------->
+
+
+<img border="1" height="300" width="250px" style=" float:left; padding:5px;"  src="images\killroom.jpg" alt="" ></img>
+</td>
+<!----book NAME---->
+
+<td valign="top">
+  <h2 style="font-size:24px;margin-top:0;padding:10px; "><b>THE KILL ROOM (hardcover )</b></h2>
+
+
+  <!----AUTHOR NAME---->
+
+  <h2 style="font-size:16px;padding:5px;padding-left:10px;margin:0px;">By  <u>Deaver Jeffery</u> (author)</h2>
+<br/>
+<div>
+<h3 style="font:16px Comic Sans MS;padding:5px;padding-left:10px;margin:0px;float:left;"><b>List Price  :</b></h2>
+<img border="1" style="float:left;padding:2px; margin-top:10px;"  src="mango\rsredbig.gif" alt="" >
+
+<!----BOOK PRICE---->
+
+<h4  style="float:left;font:18px Comic Sans MS;color:maroon;padding:5px;margin:0px;"><b>399 </b></h4>
+  </div>
+</br>
+<div>
+<h3 style="clear:both;font:16px Comic Sans MS;padding:5px;padding-left:10px;margin:0px;float:left;"><b>Our Price  :</b></h2>
+<img border="5" style="float:left;padding:4px; margin-top:10px;"  src="mango\rsredbig.gif" alt="" >
+<div style="float:right; width:254px;">
+<span >
+<a href="#" target="_blank">
+<img height="100" width="100" src="mango/discount.png" border="0" align="absmiddle" title="Cash On Delivery Available" alt="Cash On Delivery Available"></a>
+<span style="margin-left:-70px;">
+<span ><b>
+25
+</b>
+</span>
+<span style="font-size:16px;"><b>%</b></span>
+</span>
+</span>
+
+</div>
+<!----DISCOUNT PRICE---->
+
+<h4  style="float:left;font:24px Comic Sans MS;color:maroon;padding:5px;margin:0px;"><b>299 </b></h4>
+  </div>
+<br/>
+<br/>
+<br/>
+<br/>
+  
+  <div>
+
+<img border="5" style="clear:both;padding:4px; margin-top:10px;"  src="mango\call.jpg" alt="" >
+</div>
+
+</td>
+
+<td>
+<form action="order?bookname=Kill Room&author=Jeffrey Deaver&price=299" method="post" id="frm">
+<div style="background:lightgray; height:200px; width:206px ;margin:100px 0 0 0;border-radius:10px;">
+
+<a href="#"  onclick="frm.submit();"><img class="imgclass" src="mango\preorder.gif" border="5" ></a>
+
+
+</div>
+</form>
+</td>
+
+
+
+
+</tr>
+
+</br>
+</table>
+
+<li style="list-style:none; width:800px;">
+<!----REPALCE MANGO PPL BY YOUR BOOK NAME---->
+
+<h3 align="left" style="font:18px Arial;  color:orange;"><b>The Kill Room Book Description </b></h3>
+<h3 align="left" style="font:16px Arial;  color:"><b>About the Book </b></h3>
+<div width="900" height="500" align="bottom">
+<h3  style="font:16px Arial;  color:black;">
+<!----COPY THE DESCRITTION HERE FROM INFIBEAM PAGE---->
+
+The tenth novel in the critically acclaimed Lincoln Rhyme series, from Number One bestselling author Jeffery Deaver. They are calling it the 'million-dollar bullet': a sniper shot from a near-impossible distance. But there is no crime scene investigation, no evidence, and no co-operation from the local Bahamian police. Ambitious New York district attorney Nance Laurel won't let it go. This murder has all the hallmarks of a contract killing, and she has evidence that the order came from the highest levels of the US government. Putting her career on the line, she calls in independent investigators: Lincoln Rhyme and Amelia Sachs. No strangers to controversy, their reputation for seeing what others miss is unparalleled, and she knows they will risk everything - even their lives - to seek the truth . . .
+ </h3>
+
+</div>
+</li>
+</br>
+</br>
+
+
+<li align="center" style="clear:both;list-style:none;font:22px Arial;  color:orange;margin-left:-100px;"><b><u>Book Details </u></b></li>
+<br/>
+<br/>
+<table class="mytable" style="width:600px; float:left;">
+<tr >
+<td style="padding:20px 5px 20px 5px;">
+<b>Title: </b>
+</td> 
+<td  style="padding:20px 5px 20px 5px;">
+
+<!----BOOK NAME---->
+
+ The Kill Room
+ </td>
+</tr>
+
+<tr >
+
+<td style="padding:20px 5px 20px 5px;">
+<b>Publisher: </b>
+</td> 
+<td style="padding:20px 5px 20px 5px;">
+ <!----PUBLISHER NAME---->
+
+ Hodder & Stoughton
+ </td>
+
+</tr>
+
+<tr >
+
+<td style="padding:20px 5px 20px 5px;">
+<b>Author: </b>
+</td> 
+<td style="padding:20px 5px 20px 5px;">
+ Deaver Jeffery
+ </td>
+
+</tr>
+
+<tr >
+
+<td style="padding:20px 5px 20px 5px;">
+<b>Language: </b>
+</td> 
+<td style="padding:20px 5px 20px 5px;">
+ English
+ </td>
+
+</tr>
+</table>
+
+</div>
+
+  
+ <script src="js/carousel.js" ></script>
+<script src="js/tab.js" ></script>
+<script src="js/affix.js" ></script>
+<script src="js/alert.js" ></script>
+<script src="js/collapse.js" ></script>
+<script src="js/dropdown.js" ></script>
+<script src="js/popover.js" ></script>
+<script src="js/transition.js" ></script>
+<script src="js/scrollspy.js" ></script>
+
+
+</body>
+<html>
